@@ -1,0 +1,41 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2025-11-22T10:00:00Z",
+  "plugins": {
+    "zhz_portlet_suite": {
+      "id": "zhz_portlet_suite",
+      "name": "ZHZ-Portlet-Suite",
+      "description": "Professionelle OPC Portlet-Sammlung fuer JTL Shop 5",
+      "author": "10hoch2 | Alexander Erlenbusch",
+      "website": "https://www.10hoch2.de",
+      "latestVersion": "1.3.0",
+      "minShopVersion": "5.0.0",
+      "maxShopVersion": "5.4.x",
+      "portlets": [
+        {
+          "id": "zhz_blogfilter",
+          "name": "ZHZ-BlogFilter",
+          "description": "Professionelle Blog-Darstellung mit Multi-Kategorie und Kundengruppen-Filter. Responsive Layout mit konfigurierbaren Spalten fuer alle Bildschirmgroessen.",
+          "features": [
+            "Multi-Kategorie Filter",
+            "Multi-Kundengruppen Filter",
+            "Responsive Spalten (XS/SM/MD/LG/XL)",
+            "YouTube Video Integration",
+            "SEO-optimierte URLs",
+            "Konfigurationsvorschau im Backend",
+            "Regex-basierte Titel-Filter",
+            "Anpassbare Farben und Styles",
+            "Hover-Effekte fuer Kacheln",
+            "Badge-Styling fuer Kategorien"
+          ],
+          "icon": "newspaper",
+          "color": "#667eea",
+          "status": "active",
+          "version": "1.3.0",
+          "releaseDate": "2025-11-21",
+          "tags": ["blog", "news", "filter", "responsive", "opc"]
+        }
+      ]
+    }
+  }
+}

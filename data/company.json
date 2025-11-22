@@ -1,0 +1,75 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2025-11-22T10:00:00Z",
+  "company": {
+    "name": "10hoch2",
+    "fullName": "10hoch2 | Alexander Erlenbusch",
+    "tagline": "Professionelle E-Commerce Loesungen",
+    "description": "Wir entwickeln hochwertige Plugins und Erweiterungen fuer JTL Shop. Mit jahrelanger Erfahrung im E-Commerce Bereich bieten wir massgeschneiderte Loesungen fuer Ihren Online-Shop.",
+    "logo": "https://www.10hoch2.de/logo.png",
+    "website": "https://www.10hoch2.de",
+    "email": "info@10hoch2.de",
+    "phone": "",
+    "address": {
+      "street": "",
+      "zip": "",
+      "city": "",
+      "country": "Deutschland"
+    },
+    "social": {
+      "github": "https://github.com/10hoch2",
+      "linkedin": "",
+      "twitter": "",
+      "facebook": ""
+    },
+    "support": {
+      "email": "support@10hoch2.de",
+      "ticketUrl": "https://www.10hoch2.de/support",
+      "documentationUrl": "https://docs.10hoch2.de",
+      "hours": "Mo-Fr 9:00-17:00 Uhr"
+    }
+  },
+  "features": [
+    {
+      "icon": "rocket",
+      "title": "Performance",
+      "description": "Optimierter Code fuer maximale Geschwindigkeit und minimale Serverlast."
+    },
+    {
+      "icon": "shield",
+      "title": "Sicherheit",
+      "description": "Regelmaessige Security-Audits und sichere Coding-Praktiken."
+    },
+    {
+      "icon": "code",
+      "title": "Clean Code",
+      "description": "Sauberer, dokumentierter Code nach PSR-Standards."
+    },
+    {
+      "icon": "headset",
+      "title": "Support",
+      "description": "Schneller und kompetenter Support bei allen Fragen."
+    },
+    {
+      "icon": "sync",
+      "title": "Updates",
+      "description": "Regelmaessige Updates und Kompatibilitaetspruefungen."
+    },
+    {
+      "icon": "book",
+      "title": "Dokumentation",
+      "description": "Umfangreiche Dokumentation und Anleitungen."
+    }
+  ],
+  "stats": {
+    "plugins": 4,
+    "activeInstallations": "100+",
+    "yearsExperience": "5+",
+    "satisfaction": "98%"
+  },
+  "legal": {
+    "imprintUrl": "https://www.10hoch2.de/impressum",
+    "privacyUrl": "https://www.10hoch2.de/datenschutz",
+    "termsUrl": "https://www.10hoch2.de/agb"
+  }
+}

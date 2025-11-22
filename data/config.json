@@ -1,0 +1,29 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2025-11-22T10:00:00Z",
+  "api": {
+    "name": "ZHZ-Portlet-Suite Dashboard API",
+    "version": "1.0.0",
+    "baseUrl": "https://10hoch2.github.io/zhz-dashboard-api",
+    "endpoints": {
+      "portlets": "/data/portlets.json",
+      "announcements": "/data/announcements.json",
+      "company": "/data/company.json",
+      "documentation": "/data/documentation.json",
+      "all": "/data/dashboard.json"
+    },
+    "cacheTime": 3600,
+    "cors": true
+  },
+  "plugin": {
+    "minVersion": "1.3.0",
+    "latestVersion": "1.3.0",
+    "downloadUrl": "https://www.jtl-software.de/extension-store",
+    "updateAvailable": false,
+    "updateMessage": ""
+  },
+  "maintenance": {
+    "enabled": false,
+    "message": "Die API wird gerade gewartet. Bitte versuchen Sie es spaeter erneut."
+  }
+}

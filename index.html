@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZHZ-Dashboard-API</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        .container {
+            background: #fff;
+            border-radius: 16px;
+            padding: 40px;
+            max-width: 600px;
+            width: 100%;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+        .logo {
+            font-size: 48px;
+            font-weight: 700;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 10px;
+        }
+        h1 { color: #2d3748; font-size: 24px; margin-bottom: 20px; }
+        p { color: #718096; line-height: 1.6; margin-bottom: 20px; }
+        .endpoints { background: #f7fafc; padding: 20px; border-radius: 8px; margin-bottom: 20px; }
+        .endpoints h3 { color: #2d3748; margin-bottom: 15px; font-size: 16px; }
+        .endpoint {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 0;
+            border-bottom: 1px solid #e2e8f0;
+        }
+        .endpoint:last-child { border-bottom: none; }
+        .endpoint code {
+            background: #edf2f7;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 13px;
+            color: #667eea;
+        }
+        .endpoint a {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .endpoint a:hover { text-decoration: underline; }
+        .footer { text-align: center; color: #a0aec0; font-size: 13px; }
+        .footer a { color: #667eea; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">ZHZ</div>
+        <h1>ZHZ-Dashboard-API</h1>
+        <p>Zentrale API fuer die ZHZ-Portlet-Suite. Diese API stellt Daten fuer das Plugin-Dashboard bereit.</p>
+
+        <div class="endpoints">
+            <h3>Verfuegbare Endpunkte:</h3>
+            <div class="endpoint">
+                <span>Alle Daten</span>
+                <a href="data/dashboard.json"><code>/data/dashboard.json</code></a>
+            </div>
+            <div class="endpoint">
+                <span>Portlets</span>
+                <a href="data/portlets.json"><code>/data/portlets.json</code></a>
+            </div>
+            <div class="endpoint">
+                <span>Ankuendigungen</span>
+                <a href="data/announcements.json"><code>/data/announcements.json</code></a>
+            </div>
+            <div class="endpoint">
+                <span>Unternehmen</span>
+                <a href="data/company.json"><code>/data/company.json</code></a>
+            </div>
+            <div class="endpoint">
+                <span>Dokumentation</span>
+                <a href="data/documentation.json"><code>/data/documentation.json</code></a>
+            </div>
+        </div>
+
+        <p class="footer">
+            &copy; 2025 <a href="https://www.10hoch2.de" target="_blank">10hoch2</a> |
+            <a href="https://github.com/10hoch2/zhz-dashboard-api" target="_blank">GitHub</a>
+        </p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,123 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2025-11-22T10:00:00Z",
+  "products": {
+    "zhz_blogfilter": {
+      "title": "ZHZ-BlogFilter Dokumentation",
+      "version": "1.3.0",
+      "sections": [
+        {
+          "id": "installation",
+          "title": "Installation",
+          "content": "1. Laden Sie das Plugin aus dem JTL Extension Store herunter\n2. Entpacken Sie die ZIP-Datei in den Ordner `plugins/`\n3. Aktivieren Sie das Plugin in der Plugin-Verwaltung\n4. Das Portlet ist nun im OPC unter 'ZHZ-Portlet-Suite' verfuegbar"
+        },
+        {
+          "id": "quickstart",
+          "title": "Schnellstart",
+          "content": "1. Oeffnen Sie den OnPage Composer (OPC)\n2. Suchen Sie nach 'ZHZ-BlogFilter' in der Sidebar\n3. Ziehen Sie das Portlet auf die Seite\n4. Konfigurieren Sie die gewuenschten Einstellungen\n5. Speichern Sie die Seite"
+        },
+        {
+          "id": "configuration",
+          "title": "Konfiguration",
+          "subsections": [
+            {
+              "title": "Allgemein",
+              "items": [
+                {"name": "Sprache", "description": "Waehlen Sie die Sprache fuer die Blog-Beitraege"},
+                {"name": "Beitraege pro Seite", "description": "Anzahl der angezeigten Beitraege (1-50)"}
+              ]
+            },
+            {
+              "title": "Filter",
+              "items": [
+                {"name": "Kategorien", "description": "Waehlen Sie eine oder mehrere Blog-Kategorien aus"},
+                {"name": "Kundengruppen", "description": "Beschraenken Sie die Anzeige auf bestimmte Kundengruppen"},
+                {"name": "Titel-Filter (Regex)", "description": "Filtern Sie Beitraege nach Titel mit regulaeren Ausdruecken"},
+                {"name": "Titel ausschliessen (Regex)", "description": "Schliessen Sie Beitraege aus, deren Titel dem Muster entsprechen"}
+              ]
+            },
+            {
+              "title": "Layout",
+              "items": [
+                {"name": "Spalten XS/SM/MD/LG/XL", "description": "Definieren Sie die Anzahl der Spalten fuer verschiedene Bildschirmgroessen"}
+              ]
+            },
+            {
+              "title": "Anzeige",
+              "items": [
+                {"name": "Vorschaubild", "description": "Bild des Beitrags anzeigen/ausblenden"},
+                {"name": "Vorschautext", "description": "Textvorschau anzeigen mit konfigurierbarer Laenge"},
+                {"name": "Datum", "description": "Veroeffentlichungsdatum anzeigen"},
+                {"name": "YouTube Video", "description": "Ersetzen Sie das Bild durch ein YouTube-Video"}
+              ]
+            },
+            {
+              "title": "Styling",
+              "items": [
+                {"name": "Kachel-Farben", "description": "Hintergrund, Rahmen und Schatten der Kacheln"},
+                {"name": "Badge-Styling", "description": "Farbe und Form der Kategorie-Badges"},
+                {"name": "Text-Styling", "description": "Schriftgroessen und Farben fuer Titel, Text und Datum"},
+                {"name": "Button-Styling", "description": "Farbe, Form und Text des Weiterlesen-Buttons"}
+              ]
+            }
+          ]
+        },
+        {
+          "id": "faq",
+          "title": "Haeufige Fragen",
+          "items": [
+            {
+              "question": "Warum werden keine Beitraege angezeigt?",
+              "answer": "Pruefen Sie: 1) Ist die richtige Sprache ausgewaehlt? 2) Sind Blog-Beitraege vorhanden und aktiv? 3) Stimmen die Kategorie-Filter?"
+            },
+            {
+              "question": "Wie kann ich die Sortierung aendern?",
+              "answer": "Die Beitraege werden automatisch nach Erstellungsdatum (neueste zuerst) sortiert."
+            },
+            {
+              "question": "Kann ich mehrere BlogFilter auf einer Seite verwenden?",
+              "answer": "Ja, Sie koennen beliebig viele BlogFilter-Portlets platzieren, z.B. mit unterschiedlichen Kategorie-Filtern."
+            }
+          ]
+        }
+      ],
+      "changelog": [
+        {
+          "version": "1.3.0",
+          "date": "2025-11-21",
+          "changes": [
+            "Neu: Regex-basierte Titel-Filter (Include/Exclude)",
+            "Neu: Einzelartikel-Auswahl",
+            "Neu: Erweiterte Farbpalette",
+            "Verbessert: Performance-Optimierungen",
+            "Verbessert: Backend-Vorschau zeigt mehr Konfigurationsdetails"
+          ]
+        },
+        {
+          "version": "1.2.0",
+          "date": "2025-10-15",
+          "changes": [
+            "Neu: YouTube Video Integration",
+            "Neu: Hover-Effekte fuer Kacheln",
+            "Neu: Badge-Styling Optionen"
+          ]
+        },
+        {
+          "version": "1.1.0",
+          "date": "2025-09-01",
+          "changes": [
+            "Neu: Multi-Kundengruppen Filter",
+            "Neu: SEO-optimierte URLs"
+          ]
+        },
+        {
+          "version": "1.0.0",
+          "date": "2025-08-01",
+          "changes": [
+            "Initiale Veroeffentlichung"
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2025-11-22T10:00:00Z",
+  "announcements": [
+    {
+      "id": "welcome-2025",
+      "type": "info",
+      "title": "Willkommen zur ZHZ-Portlet-Suite!",
+      "message": "Vielen Dank, dass Sie unsere Portlet-Suite verwenden. Bei Fragen oder Anregungen kontaktieren Sie uns gerne.",
+      "linkText": "Kontakt aufnehmen",
+      "linkUrl": "https://www.10hoch2.de/kontakt",
+      "active": true,
+      "priority": 1,
+      "startDate": "2025-01-01",
+      "endDate": null,
+      "dismissible": true
+    },
+    {
+      "id": "new-blogfilter-1.3",
+      "type": "success",
+      "title": "NEU: ZHZ-BlogFilter v1.3.0",
+      "message": "Neue Version mit Regex-Filter, verbesserter Performance und mehr Styling-Optionen verfuegbar!",
+      "linkText": "Changelog ansehen",
+      "linkUrl": "https://github.com/10hoch2/zhz-portlet-suite/blob/main/CHANGELOG.md",
+      "active": true,
+      "priority": 2,
+      "startDate": "2025-11-21",
+      "endDate": "2025-12-31",
+      "dismissible": true
+    }
+  ]
+}

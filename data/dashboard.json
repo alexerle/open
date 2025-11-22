@@ -1,0 +1,71 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2025-11-22T10:00:00Z",
+  "products": [
+    {
+      "id": "zhz_blogfilter",
+      "name": "ZHZ-BlogFilter",
+      "type": "portlet",
+      "plugin": "zhz_portlet_suite",
+      "description": "Professionelle Blog-Darstellung mit Multi-Kategorie und Kundengruppen-Filter. Responsive Layout mit konfigurierbaren Spalten fuer alle Bildschirmgroessen.",
+      "features": [
+        "Multi-Kategorie Filter",
+        "Multi-Kundengruppen Filter",
+        "Responsive Spalten (XS/SM/MD/LG/XL)",
+        "YouTube Video Integration",
+        "SEO-optimierte URLs",
+        "Konfigurationsvorschau im Backend",
+        "Regex-basierte Titel-Filter",
+        "Anpassbare Farben und Styles"
+      ],
+      "icon": "newspaper",
+      "color": "#667eea",
+      "status": "active",
+      "version": "1.3.0",
+      "tags": ["blog", "news", "filter", "opc"]
+    }
+  ],
+  "announcements": [
+    {
+      "id": "welcome-2025",
+      "type": "info",
+      "title": "Willkommen bei 10hoch2!",
+      "message": "Entdecken Sie unsere professionellen JTL Shop Erweiterungen.",
+      "linkText": "Alle Produkte",
+      "linkUrl": "https://www.10hoch2.de/produkte",
+      "active": true,
+      "priority": 1,
+      "dismissible": true
+    }
+  ],
+  "company": {
+    "name": "10hoch2",
+    "fullName": "10hoch2 | Alexander Erlenbusch",
+    "tagline": "Professionelle E-Commerce Loesungen",
+    "description": "Wir entwickeln hochwertige Plugins und Erweiterungen fuer JTL Shop.",
+    "website": "https://www.10hoch2.de",
+    "email": "info@10hoch2.de",
+    "support": {
+      "email": "support@10hoch2.de",
+      "url": "https://www.10hoch2.de/support"
+    },
+    "features": [
+      {"icon": "rocket", "title": "Performance", "description": "Optimierter Code fuer maximale Geschwindigkeit"},
+      {"icon": "shield", "title": "Sicherheit", "description": "Sichere Coding-Praktiken"},
+      {"icon": "code", "title": "Clean Code", "description": "Sauberer Code nach PSR-Standards"},
+      {"icon": "headset", "title": "Support", "description": "Schneller Support bei allen Fragen"},
+      {"icon": "sync", "title": "Updates", "description": "Regelmaessige Updates"},
+      {"icon": "book", "title": "Dokumentation", "description": "Umfangreiche Dokumentation"}
+    ],
+    "stats": {
+      "products": "1",
+      "installations": "100+",
+      "experience": "5+ Jahre",
+      "satisfaction": "98%"
+    },
+    "legal": {
+      "imprintUrl": "https://www.10hoch2.de/impressum",
+      "privacyUrl": "https://www.10hoch2.de/datenschutz"
+    }
+  }
+}
